@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="js/flexslider/flexslider.css" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/flexslider/jquery.flexslider.js"></script>
+	<script>
+  		$(window).load(function() {
+  		$('.flexslider').flexslider({
+    		animation: "drop",
+    		slideshowSpeed: 2000,
+    		animationSpeed: 1600
+  		});
+		});
+  	</script>
+	<title>Kontakt</title>
+	</head>
+	<body>
+		<div id="divSection">
+			<div id="divHeadBarWrap">
+				<div id="divHeadBarCol">
+					<div id="divHeadBarCol1">
+						<div id="logos">
+							<img src="images/logo/logo1.png" width="40px">
+						<a href="index.html">
+						<img src="images/logo/logo3.png" width="200px">
+						</a>
+						</div>
+						<div id="menus">
+							<ul class="headMenu">
+							<li><a href="oglasnik.html">AutoStore oglasnik</a></li>
+							<li><a href="index.html">Usluge</a></li>
+							<li><a href="index.html">Automobili</a></li>
+							<li><a href="index.html">O nama</a></li>
+							<li><a href="index.html">Uvoz</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+
+							</ul>
+							</div>
+					</div>
+				</div>
+			<div style="clear: both;"></div>
+			</div>
+		</div>
+
+		<div id="contact">
+		<div class="contact">
+			<h3>Pošaljite nam upit i sa zadovoljstvom ćemo vam odgovoriti na sva pitanja</h3>
+		</div>
+		<div id="contactUs">
+			<div class="contactUs1">
+				<img src="images/logo/location.png" width="50px">
+				<h3>Adresa</h3>
+				<p>Vinkovačka 115, 31000 Osijek</p>
+			</div>
+			<div class="contactUs1">
+				<img src="images/logo/phone.png" width="50px">
+				<h3>Broj mobitela</h3>
+				<p>+385 91 216 0909</p>
+			</div>
+			<div class="contactUs1">
+				<img src="images/logo/email.png" width="50px">
+				<h3>E-mail adresa</h3>
+				<p>autostore@autostore.hr</p>
+			</div>
+		</div>
+		<div id="form">
+			<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=autostore osijek&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpenation.com/">Minecraft Website</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:450px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:450px;}.gmap_iframe {width:600px!important;height:450px!important;}</style></div>
+			<div class="contactForm">
+				<input class="input" id="TXT" name="TXT" type="text" value="" placeholder="Ime i prezime">
+				<input class="input" id="TXT" name="TXT" type="text" value="" placeholder="Broj mobitela">
+				<input class="input" id="TXT" name="TXT" type="text" value="" placeholder="Email adresa">
+				<textarea id="poruka" name="poruka" value="" placeholder="Sadržaj"></textarea>
+				<button id="btt4" name="btt4">Pošaljite upit</button>
+			</div>
+		</div>
+	</div>
+			</body>
+</html>
+
